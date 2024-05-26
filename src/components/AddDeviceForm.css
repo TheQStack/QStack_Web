@@ -1,0 +1,46 @@
+.add-device-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-device-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .add-device-form input,
+  .add-device-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-device-form input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-device-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

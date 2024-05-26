@@ -1,0 +1,33 @@
+.device-list {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.device-name, .device-description {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.device-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.device-list-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.device-name-title {
+  grid-column: 1;
+  text-align: left;
+}
+
+.device-description-title {
+  grid-column: 2;
+  text-align: right;
+}
